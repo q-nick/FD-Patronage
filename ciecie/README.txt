@@ -1,1 +1,1 @@
-grafika
+pocieta grafika
