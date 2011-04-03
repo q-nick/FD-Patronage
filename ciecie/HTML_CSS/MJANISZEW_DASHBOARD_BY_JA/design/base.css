@@ -1,0 +1,488 @@
+/* ============================= */
+/*           PODSTAWY            */
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+head, html {
+    height: 100%;
+}
+
+body { 
+    font-family: Trebuchet MS, Tahoma, Verdana, Calibri, sans-serif;
+	font-size: 11px;
+    color: #1b1a21;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #cccccc;
+}
+
+p, h1, h2, h3 {
+	margin: 0px;
+    padding: 0px;
+}
+
+a:link, a:visited {
+    color: #87ac06;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #afdf08;
+    text-decoration: underline;
+}
+
+a img {
+    border: none;
+}
+
+/* ============================= */
+/*      KONTENERY POZIOM 1       */
+
+div#header {
+	position: static;
+	width: 100%;
+	background: #333333 url(header_bg.png) no-repeat;
+	background-position: bottom center;
+	color: #eeeeee;
+    float: center;
+	text-align: left;
+	padding: 0px;
+}
+
+div#black {
+	position: relative;
+	width: 100%;
+	height: 49px;
+	background: #111111 url(black_bg.png) no-repeat;
+	background-position: top center;
+    float: center;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	clear: both;
+}
+
+div#subpage {
+	position: static;
+	width: 100%;
+	background: #333333 url(subpage_bg.png) repeat-y;
+	background-position: top center;
+    float: center;
+	text-align: left;
+	padding: 0px;
+}
+
+div#logpage {
+	position: static;
+	width: 100%;
+    float: center;
+	text-align: left;
+	padding: 0px;
+}
+
+/* ============================= */
+/*  KONTENERY POZIOM 2 (header)  */
+
+div#header_center {
+	position: static;
+	width: 900px;
+	text-align: left;
+	margin: 0 auto; 	
+	padding: 0px 0px 25px 0px;
+}
+
+div#header_center img{
+	margin: 25px 0px 25px 0px;
+	padding: 0px;
+}
+
+div#header_nav{
+	position: static;
+	width: 900px;
+	background: transparent url(header_nav_bg.png) repeat;
+	background-position: top left;
+	color: #cccccc;
+	height: 50px;
+	text-align: right;
+	margin: 0px 0px 25px 0px; 
+}
+
+div#header_nav ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+div#header_nav ul li, div#header_nav p {
+    float: right;
+	margin: 15px 15px 0px 0px;
+    padding: 0px;
+}
+
+div#header_nav ul li a, div#header_nav p {
+    font-family: Trebuchet MS, Tahoma, Verdana, Calibri, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #eeeeee;
+	text-shadow: #333333 1px 1px;
+}
+
+div#header_box {
+	position: relative;
+	width: 900px;
+	background: transparent url(header_box_bg.png) repeat;
+	background-position: top left;
+	text-align: left;
+	padding: 10px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+div#form_frame {
+	position: relative;
+	width: 869px;
+	height: 37px;
+	background: transparent url(form_frame.png) no-repeat;
+	background-position: top left;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	margin: 10px 15px 10px 15px;
+	float: none;
+}
+
+div#form_frame  ul {
+    list-style-type: none;
+	margin: 0px;
+    padding: 0px;
+}
+
+div#form_frame  li {
+	font-family: Trebuchet MS, Tahoma, Verdana, Calibri, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #eeeeee;
+	text-shadow: #333333 1px 1px;
+    float: left;
+	margin: 0px;
+    padding: 0px;
+}
+
+div#form_frame img {
+	margin: 4px 0px 0px 10px;
+}
+
+div#form_frame input {
+	margin: 4px 4px 0px 4px;
+}
+
+div#form_frame textarea {
+	margin: 4px 5px 0px 5px;
+}
+
+div#form_frame p {
+	margin: 8px 10px 0px 15px;
+}
+
+div#form_frame  li.end {
+	float: right;
+}
+
+/* ============================= */
+/*   KONTENERY POZIOM 2 (BLACK)  */
+
+div#black p {
+	margin: 0px; 	
+	padding: 20px 0px 0px 0px;
+	color: #cccccc;
+}
+
+/* ============================= */
+/*  KONTENERY POZIOM 2 (SUBPAGE) */
+
+div#logpage_center {
+	position: relative;
+	overflow: hidden;
+	width: 920px;
+	text-align: left;
+	margin: 0 auto; 	
+	padding: 0px;
+	display: block;
+}
+
+div#logpage_center h1{
+	font-family: Trebuchet MS, Tahoma, Verdana, Calibri, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #111111;
+	text-align: justify;
+	margin: 20px 0px 0px 0px;
+}
+
+div#logpage_center p{
+	font-family: Trebuchet MS, Tahoma, Verdana, Calibri, sans-serif;
+	color: #333333;
+	text-align: justify;
+	margin: 5px 0px 5px 0px;
+}
+
+
+/* ============================= */
+/*  KONTENERY POZIOM 2 (SUBPAGE) */
+
+div#subpage_center {
+	position: relative;
+	overflow: hidden;
+	width: 920px;
+	text-align: left;
+	margin: 0 auto; 	
+	padding: 0px;
+	display: block;
+}
+
+div#subpage_navi {
+	background: #333333;
+	position: static;
+	width: 231px;
+    float: left;	
+	display: block;
+	text-align: left;
+	margin: 0px; 	
+	padding: 10px 0px 10px 0px;
+}
+
+div#left_boxes {
+	position: static;
+	width: 221px;
+    float: left;	
+	display: block;
+	text-align: left;
+	margin: 0px 0px 0px 0px; 	
+	padding: 0px;
+	background: transparent url(left_boxes_bg.png) repeat-y;
+	background-position: top left;
+}
+
+div#subpage_navi_separator {
+	position: static;
+	width: 201px;
+	height: 3px;
+    float: left;	
+	display: block;
+	text-align: left;
+	margin: 0px 0px 0px 10px; 	
+	padding: 0px;
+	background: transparent url(subpage_navi_separator.png) repeat-x;
+	background-position: top left;
+}
+
+div#left_boxes h1 {
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: justify;
+	margin: 4px 10px 0px 10px;
+	padding: 5px 10px 5px 10px;
+	color: #111111;
+	background: transparent url(left_boxes_h1.png) repeat;
+}
+
+div#left_boxes p {
+	text-align: justify;
+	margin: 5px 20px 5px 20px; 
+	color: #333333;
+}
+
+div#left_boxes a {
+	color: #333333;
+}
+
+div#left_boxes  ul {
+    list-style-type: none;
+    margin: 5px 20px 5px 20px; 
+	color: #333333;
+    padding: 0px;
+}
+
+div#left_boxes  ul li {
+	margin: 0px;
+    padding: 0px;
+}
+
+div#left_boxes_top {
+	position: static;
+	width: 221px;
+	min-height: 16px;
+    float: left;	
+	display: block;
+	text-align: left;
+	margin: 0px 0px 0px 0px; 	
+	padding: 0px;
+	background: transparent url(left_boxes_top.png) no-repeat;
+	background-position: top left;
+}
+
+div#left_boxes_bottom {
+	position: static;
+	width: 221px;
+	min-height: 20px;
+    float: left;	
+	display: block;
+	text-align: left;
+	margin: 0px; 	
+	padding: 0px;
+	background: transparent url(left_boxes_bottom.png) no-repeat;
+	background-position: top left;
+}
+
+div#subpage_content {
+	background: #cccccc;
+	color: #333333;
+	position: static;
+	width: 689px;
+	float: right;
+	text-align: left;
+	margin: 0px 0px 0px 0px; 	
+	padding: 20px 0px 20px 0px;
+	background: transparent url(subpage_content_bg.png) repeat-y;
+	background-position: top left;
+}
+
+div#entry {
+	position: static;
+	width: 679px;
+    float: left;	
+	display: block;
+	text-align: left;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+	background: transparent url(entry_bg.png) repeat-y;
+	background-position: top left;
+}
+
+div#entry_separator {
+	position: static;
+	width: 659px;
+	height: 3px;
+    float: left;	
+	display: block;
+	text-align: left;
+	margin: 10px 0px 10px 20px; 	
+	padding: 0px;
+	background: transparent url(entry_separator.png) repeat-x;
+	background-position: top left;
+}
+
+div#entry_top {
+	position: static;
+	width: 679px;
+	min-height: 47px;
+    float: left;	
+	display: block;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+	background: transparent url(entry_top.png) no-repeat;
+	background-position: top left;
+	font-size: 15px;
+	font-weight: bold;
+	color: #cccccc;
+	text-transform: uppercase;
+}
+
+div#entry_top_left {
+	position: static;
+	width: 99px;
+    float: left;
+	text-align: center;
+	margin: 14px 0px 0px 10px;
+}
+
+div#entry_top_right {
+	width: 560px;
+	position: static;
+    float: right;
+	text-align: left;	
+	margin: 14px 0px 0px 0px;
+}
+
+div#entry p {
+	text-align: justify;
+	margin: 5px 20px 5px 119px; 
+	color: #333333;
+	clear: both;
+}
+
+div#entry p.foot {
+	text-align: justify;
+	margin: 5px 20px 5px 119px; 
+	color: #111111;
+	font-size: 15px;
+	font-weight: bold;
+	clear: both;
+	text-align: right;
+}
+
+div#entry_bottom {
+	position: static;
+	width: 679px;
+	min-height: 10px;
+    float: left;	
+	display: block;
+	text-align: left;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+	background: transparent url(entry_bottom.png) no-repeat;
+	background-position: top left;
+}
+
+/* ============================= */
+/*             INPUTY            */
+
+input#transparent, textarea#transparent {
+	font-family: Trebuchet MS, Tahoma, Verdana, Calibri, sans-serif;	
+	color: #cccccc;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border: 0px;
+	background: transparent url(form_input_bg.png) repeat;
+	background-position: top left;
+}
+
+input#transparent {
+	font-size: 15px;
+	font-weight: bold;
+	text-shadow: #333333 1px 1px;
+	width: 275px;
+	min-height: 29px;
+	text-align: center;
+}
+
+input#submit {
+	font-family: Trebuchet MS, Tahoma, Verdana, Calibri, sans-serif;	
+	color: #111111;
+	padding: 0px 10px 3px 10px;
+	margin: 0px 0px 0px 0px;
+	border: 0px;
+	height: 29px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	background: transparent url(form_submit_bg.png) repeat;
+	background-position: top left;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+
+textarea#transparent {
+	font-size: 11px;
+	height: 29px;
+	width: 665px;
+	text-align: left;
+}
