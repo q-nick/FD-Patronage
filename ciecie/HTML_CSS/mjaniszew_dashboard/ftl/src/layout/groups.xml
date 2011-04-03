@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<groups>
+	<group>
+		<name>Grupa 1</name>
+		<star>no</star>
+	</group>
+	<group>
+		<name>Grupa 2</name>
+		<star>yes</star>
+	</group>
+	<group>
+		<name>Grupa 3</name>
+		<star>no</star>
+	</group>
+	<group>
+		<name>Grupa 4</name>
+		<star>no</star>
+	</group>
+</groups>
