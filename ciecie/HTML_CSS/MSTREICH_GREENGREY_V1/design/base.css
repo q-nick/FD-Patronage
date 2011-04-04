@@ -156,6 +156,15 @@ div#form_frame {
 	float: none;
 }
 
+div#wysiwyg {
+	position: relative;
+	width: 869px;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	margin: 10px 15px 10px 15px;
+	float: none;
+}
+
 div#form_frame  ul {
     list-style-type: none;
 	margin: 0px;
@@ -204,7 +213,7 @@ div#black p {
 }
 
 /* ============================= */
-/*  KONTENERY POZIOM 2 (SUBPAGE) */
+/*  KONTENERY POZIOM 2 (LOGPAGE) */
 
 div#logpage_center {
 	position: relative;
@@ -316,6 +325,12 @@ div#left_boxes  ul li {
     padding: 0px;
 }
 
+div#left_boxes  ul li img{
+	margin: 0px;
+    padding: 0px;
+	float: right;
+}
+
 div#left_boxes_top {
 	position: static;
 	width: 221px;
@@ -351,7 +366,7 @@ div#subpage_content {
 	text-align: left;
 	margin: 0px 0px 0px 0px; 	
 	padding: 20px 0px 20px 0px;
-	background: transparent url(subpage_content_bg.png) repeat-y;
+	background: transparent url(subpage_content_bg.png) no-repeat;
 	background-position: top left;
 }
 
@@ -412,6 +427,12 @@ div#entry_top_right {
 	margin: 14px 0px 0px 0px;
 }
 
+div#entry_top_right img {
+	position: static;
+    float: right;
+	margin: 2px 20px 0px 0px;
+}
+
 div#entry p {
 	text-align: justify;
 	margin: 5px 20px 5px 119px; 
@@ -442,10 +463,35 @@ div#entry_bottom {
 	background-position: top left;
 }
 
+div#more {
+	position: static;
+	width: 659px;
+	text-align: right;
+	display: block;
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+}
+
+div#more  ul {
+    list-style-type: none;
+	margin: 0px;
+    padding: 0px;
+}
+
+div#more li {
+	display: inline;
+	margin: 0px 0px 0px 10px;
+    padding: 0px;
+}
+
+div#more a {
+	color: #333333;
+}
+
 /* ============================= */
 /*             INPUTY            */
 
-input#transparent, textarea#transparent {
+input#transparent {
 	font-family: Trebuchet MS, Tahoma, Verdana, Calibri, sans-serif;	
 	color: #cccccc;
 	padding: 0px 0px 0px 0px;
@@ -453,13 +499,10 @@ input#transparent, textarea#transparent {
 	border: 0px;
 	background: transparent url(form_input_bg.png) repeat;
 	background-position: top left;
-}
-
-input#transparent {
 	font-size: 15px;
 	font-weight: bold;
 	text-shadow: #333333 1px 1px;
-	width: 275px;
+	width: 200px;
 	min-height: 29px;
 	text-align: center;
 }
@@ -478,11 +521,4 @@ input#submit {
 	background-position: top left;
 	text-transform: uppercase;
 	vertical-align: top;
-}
-
-textarea#transparent {
-	font-size: 11px;
-	height: 29px;
-	width: 665px;
-	text-align: left;
 }
