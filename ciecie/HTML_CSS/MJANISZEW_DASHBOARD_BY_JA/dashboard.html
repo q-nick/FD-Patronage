@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="all" />
+	<title>BLStream Intranet System</title>
+	<link rel="stylesheet" href="design/style.css"> 
+	<link rel="stylesheet" href="design/ui-lightness/jquery-ui-1.8.11.custom.css"> 
+	<script type="text/javascript" src="jquery-1.4.4.min.js"></script> 
+	<script type="text/javascript" src="jquery-ui-1.8.11.custom.min.js"></script> 
+	
+	<script> 
+	$(function() {
+		$( "#calendar" ).datepicker();
+	});
+	</script> 
+</head>
+<body>
+	<div id="header_center">
+		<div id="bltop"><img src="design/bltop.png" id="bltopimg" alt="BLStream"/></div>
+		<div id="login">Zalogowany jako: <span>Admin / Wyloguj</span></div>
+	</div>
+
+	<div id="content_center">
+		<div id="menu">
+			<h4>Moje grupy:</h4>	
+			<ul>
+				<li><a href="">Grupa 1</a></li>
+				<li><a href="">Grupa 2</a></li>
+				<li><a href="">Grupa 3</a></li>
+				<li><a href="">Grupa 4</a></li>
+			</ul>
+			<div class="button" id="user_group"><a href="">Zarządzaj</a></div>
+			<form action="#"><input type="submit" value=" " id="search_butt" /><input type="text" id="search_in" /></form>
+			<div id="calendar"></div>
+		</div>
+
+
+		<div id="content">
+		
+			<form action="#">
+			<label for="title">Tytuł wiadomości: </label><br /><input id="title" name="title" type="text" class="input_100"/><br /><br />
+			<label for="data">Treść wiadomości: </label><br /><textarea id="data" name="data" class="input_100"></textarea><br /><br />
+			<label for="title">Dodaj tagi: </label><input id="tags" name="tags" type="text" class="input_100"/><br /><br />
+			<div class="to_right"><input type="checkbox" name="comment" id="comment" value="1" class="comment"/><label for="comment">Bez komentarzy</label>
+			<span class="c_green">Dodaj załącznik</span><input type="submit" class="button" value="Publikuj" /></div>
+			</form>
+
+			<div class="message">
+				<h5>Pierwszy post</h5><div class="msg_author"> Użytkownik</div><div class="date">1/04/2011 13:35 </div>
+				<hr/>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum vulputate metus et tempor. Donec adipiscing aliquet auctor. Aenean scelerisque consequat felis, in aliquam lacus sodales vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem ac orci pharetra ut luctus lacus faucibus. Praesent at arcu ligula. Nulla facilisi. Aenean quis massa augue, in r.... <span class="c_green"><a href="">Więcej</a></span></p>
+				<div class="go_comment"><a href="">Skomentuj(6)</a></div>
+			
+			</div>
+
+
+			<div class="message">
+				<h5>Drugi post</h5><div class="msg_author"> Admin</div><div class="date">1/04/2011 14:35 </div>
+				<hr/>
+				<p>Ut ut ante eros. Pellentesque sodales consectetur volutpat. Aenean non fermentum massa. Fusce luctus eros quis nulla sodales at pellentesque turpis dignissim. Pellentesque et enim erat, eget bibendum nisi. Sed ut sapien at orci ultrices molestie. Donec non leo in mi sodal.... <span class="c_green"><a href="">Więcej</a></span></p>
+				<div class="go_comment"><a href="">Skomentuj(2)</a></div>
+			
+			</div>
+			
+		</div>
+	</div>	
+
+	<div id="footer">All rights reserved, BLStream 2011</div>
+</body></html>

@@ -1,0 +1,7 @@
+sourceRoot: src
+outputRoot: out
+data: {
+    tagsXml: xml(layout/tags.xml)
+    groupsXml: xml(layout/groups.xml)
+    messagesXml: xml(layout/messages.xml)
+}

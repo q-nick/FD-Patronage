@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<messages>
+	<message>
+		<title>Pierwsza wiadomość</title>
+		<date>1/04/2011, 13:35</date>
+		<user>Użytkownik</user>
+		<text>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat... &lt;span  class="green"&gt;Więcej&lt;/span$gt;</text>
+		<comments>7</comments>
+	</message>
+	<message>
+		<title>Kolejna  wiadomość</title>
+		<date>1/04/2011, 13:35</date>
+		<user>Admin</user>
+		<text>&lt;a href="#"&gt; http://jakislink.com.pl/gitjestgit/&lt;/a&gt;&lt;br/&gt;Fajny  link, zobaczcie koniecznie</text>
+		<comments>0</comments>
+	</message>
+</messages>

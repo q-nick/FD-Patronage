@@ -1,0 +1,328 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+	font-weight:normal;
+	font-style:normal;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* =========================================================
+                        # Common elements
+========================================================= */
+body{
+  font: 12px Tahoma, Arial, Helvetica, sans-serif;
+  color: #6a6a6a;
+}
+a{
+  text-decoration:none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.green{
+  color: #6e9d36;
+  font-weight: bold;
+}
+/* =========================================================
+                        # Header
+========================================================= */
+#x-header{
+  width: 100%;
+  height: 85px;
+  background: url(../img/header_background.jpg) repeat-x;
+  border-bottom: 15px solid #292d2f;
+  font-size: 13px; 
+}
+#header{
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+}
+#header a.logo{
+  display: block;
+  text-indent: -9999px;
+  background: url(../img/logo.png) no-repeat;
+  width: 273px;
+  height: 57px;
+  float: left;
+  margin: 20px 0 0 0;
+}
+#header-menu{
+  float: right;
+  margin: 13px 0 0 0;
+  font-weight: bold;
+}
+#header-menu a{
+  font-weight: bold;
+  color: #6a6a6a;
+}
+/* =========================================================
+                        # Content
+========================================================= */
+#x-content{
+  clear: both;
+  width: 100%;
+  height: 100%;
+  background: #ffffff url(../img/content_background.jpg) repeat-x;
+  padding: 30px 0 0 0;
+}
+#content{
+  width: 900px;
+  height: 226px;
+  margin: 0 auto;
+}
+#left-panel{
+  width: 226px;
+  float: left;
+}
+#left-panel .groups{
+  width: 226px;
+  background: url(../img/groups_background.png) no-repeat;
+  padding: 10px 12px 0px 12px;
+  margin: 0 0 60px 0;
+}
+#left-panel .groups .line{
+  display: block;
+  width: 200px;
+  height: 2px;
+  background: red url(../img/groups_line.png) no-repeat;
+  margin: 7px 0 0 0;
+}
+#left-panel .groups ul{
+  margin: 7px 0 0 0;
+}
+#left-panel .groups ul li{
+  padding: 0 0 3px 0;
+}
+#left-panel .groups ul li.star{
+  background: url(../img/star.png) no-repeat 21px 21px;
+  background-position: 180px 0;
+}
+#left-panel .groups a.manage{
+  background: #292d2f;
+  color: #ffffff;
+  font-weight: bold;
+  width: 60px;
+  padding: 4px 0 2px 4px;
+  margin: 0 25px 0 0;
+  float: right;
+}
+#left-panel .search{
+  width: 226px;
+  height: 50px;
+  margin: 0 0 50px 0;
+  color: #717171;
+  font-size: 11px;
+}
+#left-panel .search form{
+  float: right; 
+  font-size: 12px;
+}
+#left-panel .search form input{
+  float: right;
+  background-image: url(../img/search.jpg);
+  background-repeat: no-repeat; 
+  background-position: -29px 0;
+  width: 177px;
+  height: 27px;
+  border: none;
+  padding: 0 0 0 10px;
+  color: #aeadae;
+  font-weight: bold;   
+}
+#left-panel .search form .button{
+  float: left;
+  font-size: 0px;
+  background-image: url(../img/search.jpg);
+  background-repeat: no-repeat;  
+  background-position: 0 0;
+  width: 29px;
+  height: 27px;
+  cursor: pointer;
+}
+#left-panel .search .advanced{
+  float: right;
+  margin: 2px 17px 0 0;
+}
+#left-panel .tagcloud{
+  width: 100%;
+  margin: 0 0 60px 0;
+}
+#left-panel .tagcloud a{
+  color: #515657;
+  font-weight: bold;
+}
+#left-panel .calendar{
+  width:100%;
+  margin: 0 0 60px 0;
+}
+#right-panel{
+  width: 600px;
+  float: right;
+}
+#right-panel .show{
+  clear: both;
+  font-weight: bold;
+  margin: 0 0 40px 10px;
+}
+#right-panel .show a{
+  margin: 0 0 0 20px;
+  color: #6e9d36;
+}
+#right-panel .message{
+  width: 100%;
+  clear: both;
+  margin: 0 0 60px 0;
+}
+#right-panel .message h2{
+  font-size: 12px;
+  color: #5d5c5c;
+  font-weight: bold;
+  float: left;
+}
+#right-panel .message .date{
+  float: right;
+  font-weight: bold;
+}
+#right-panel .message .line{
+  clear: both;
+  float: left;
+  background: url(../img/message_line.png) no-repeat;
+  width: 598px;
+  height: 7px;
+  margin: 5px 0 10px 0;
+}
+#right-panel .message .message-content{
+  clear: both;
+}
+#right-panel .message .message-content a{
+  color: #3f96c3;
+}
+#right-panel .message .message-content p{
+  margin: 0 0 10px 0;
+}
+#right-panel .message a.comment{
+  color:#5d5c5c;
+  font-weight: bold;
+  float: right;
+  margin: 0 10px 0 0;
+}
+#right-panel .add-message{
+  width: 100%;
+  height: 220px;
+  margin: 0 0 70px 0;
+}
+#right-panel .add-message form label{
+  font-weight: bold;
+  font-size: 13px;
+  float: left;
+  clear: both;
+  margin: 0 0 10px 0;
+}
+#right-panel .add-message input{
+  clear: both;
+  float: left;
+  margin: 0 0 10px 0;
+  width: 99%;
+}
+#right-panel .add-message input.tags{
+  clear: none;
+  float: right;
+  width: 83%;
+  margin: 0 0 10px 23px;
+}
+#right-panel .add-message input.button{
+  background: #292d2f;
+  color: #ffffff;
+  font-weight: bold;
+  width: 60px;
+  padding: 4px 4px 2px 4px;
+  margin: 0 25px 0 0;
+  float: right;
+  border: none;
+  cursor: pointer;
+}
+#right-panel .add-message textarea{
+  clear: both;
+  float: left;
+  margin: 0 0 10px 0;
+  width: 99%;
+}
+#right-panel .add-message .form-add-message{
+  clear: both;
+  float: right;
+}
+#right-panel .add-message .form-add-message label, #right-panel .form-add-message input, #right-panel .form-add-message textarea, #right-panel .form-add-message input.checkbox{
+  float: left; 
+  clear: none;
+}
+#right-panel .form-add-message input.checkbox{
+  width: 30px;
+}
+#right-panel .add-message .form-add-message .comments, #right-panel .add-message .form-add-message .enclosure{
+  float: left;
+  margin: 5px 20px 0 0;
+}
+#right-panel .add-message .form-add-message .enclosure a{
+  background: url(../img/enclosure.png) no-repeat;
+  padding: 0 0 0 17px;
+  color: #6e9d36;
+}
+/* =========================================================
+                        # Footer
+========================================================= */
+#x-footer{
+  clear: both;
+  background: #292d2f;
+  height: 24px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  padding: 7px 0 0 0;
+}
