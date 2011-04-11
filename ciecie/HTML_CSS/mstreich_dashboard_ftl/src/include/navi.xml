@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navi>
+	<grupy>
+		<grupa>
+			<name>Grupa Pierwsza</name>
+			<link>Grupa Pierwsza</link>
+		</grupa>
+		<grupa>
+			<name>Grupa Druga</name>
+			<link>Grupa Druga</link>
+		</grupa>
+		<grupa>
+			<name>Grupa Trzecia</name>
+			<link>Grupa Trzecia</link>
+		</grupa>
+		<grupa>
+			<name>Grupa Czwarta</name>
+			<link>Grupa Czwarta</link>
+		</grupa>
+	</grupy>
+	<kalendarz>
+	</kalendarz>
+	<rezerwuj>
+	</rezerwuj>
+	<tagi>
+	</tagi>
+</navi>

@@ -1,0 +1,26 @@
+<#escape x as x?html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" >
+<head>
+<#include  "/include/head.ftl">
+</head>
+<body>
+	<div id="header">
+<#include "/include/header.ftl">
+	</div>	
+	<div id="black">
+	</div>			
+	<div id="subpage">	
+		<div id="subpage_center">			
+			<div id="subpage_navi">			
+<#include "/include/subpage_navi.ftl">				
+			</div>			
+			<div id="subpage_content">			
+<#include "/include/subpage_content.ftl">				
+			</div>		
+		</div>
+	</div>	
+<#include "/include/footer.ftl">	
+</body></html>
+</#escape>

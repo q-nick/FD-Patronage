@@ -1,0 +1,6 @@
+sourceRoot: src
+outputRoot: out
+data: {
+    siteXml: xml(include/site.xml)
+    naviXML: xml(include/navi.xml)
+}
